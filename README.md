@@ -19,7 +19,7 @@ Only enter the correct integer in the answering box. Do not include any extra sp
 A U B ( U - or) = A + B - A and B
 A and B = A + B - A U B ( U - or)
 A U B = {1,2,3,4,5,6} + {2,3,4,5,6,7,8} - {1,2,3,4,5,6,7,8} = {1,2,3,4,5,6,2,3,4,5,6,7,8} - {1,2,3,4,5,6,7,8} = {2,3,4,5,6}**
-Q3: Basics of Sets and Relations #3
+## Q3: Basics of Sets and Relations #3 
 
 Set A = {1,2,3,4,5,6} 
 Set B = {2,3,4,5,6,7,8}
@@ -28,7 +28,7 @@ Only enter the correct integer in the answering box. Do not include any extra sp
 **Answer: 1
 A - B = {1,2,3,4,5,6} - {2,3,4,5,6,7,8} = {1}
 We substract from set A the values which are in set B if value in set A = value in set B and the result is what left in set > A.**
-Q4: Basics of Sets and Relations #4
+## Q4: Basics of Sets and Relations #4
 
 Set A = {1,2,3,4,5,6} 
 Set B = {2,3,4,5,6,7,8}
@@ -41,7 +41,7 @@ number pairs = 6*7 =42
 (1,2) (1,3) (1,4) (1,5) (1,6) (1,7) (1,8) (2,2) (2,3) (2,4) (2,5) (2,6) (2,7) (2,8) (3,2) (3,3) (3,4) (3,5) (3,6) (3,7) (3,8)
 (4,2) (4,3) (4,4) (4,5) (4,6) (4,7) (4,8) (5,2) (5,3) (5,4) (5,5) (5,6) (5,7) (5,8) (6,2) (6,3) (6,4) (6,5) (6,6) (6,7) (6,8)
 (7,2) (7,3) (7,4) (7,5) (7,6) (7,7) (7,8) (8,2) (8,3) (8,4) (8,5) (8,6) (8,7) (8,8)**
-Q5: Basics of Sets and Relations #5
+## Q5: Basics of Sets and Relations #5
 
 Consider the following data table named Student.
 Student Name	Number	Sex
@@ -52,7 +52,7 @@ Nel	2341	F
 Only enter a single integer. Do not include any extra spaces or newlines.
 **Answer: 2
 Number 3412 < 3000 and Number 2341 < 3000**
-Q6: Basics of Sets and Relations #6
+## Q6: Basics of Sets and Relations #6
 
 Consider the following data table named Student.
 Name	Number	Sex
@@ -63,7 +63,7 @@ Nelson	2341	F
 Only enter a single integer. Do not include any extra spaces or newlines.
 **Answer: 2
 Name, Number**
-Q7: Basics of Sets and Relations #7
+## Q7: Basics of Sets and Relations #7
 
 Consider the following data table named Student.
 Student Name	Number	Sex
@@ -80,7 +80,7 @@ Only enter a single integer. Do not include any extra spaces or newlines.
 **Answer: 2
 Number=ID=3412
 Number=ID=2341**
-Q8: Relational Algebra - 3
+## Q8: Relational Algebra - 3
 
 Which is a join condition contains an equality operator?
 
@@ -101,55 +101,55 @@ NAN	5 C5
 3 A3 --> 3 -
 1 - --> 1 B1
 4 A4 does not equal 6 B6**
-Q9: Relational Algebra - 4
+## Q9: Relational Algebra - 4
 
 In precedence of set operators the expression is evaluated from:
 **Answer: Left to right**
-Q10: Database Query Languages
+## Q10: Database Query Languages
 
 Using which language can a user request information from a database ?
 **Answer: Query**
-Q11: Procedural Language
+## Q11: Procedural Language
 
 Which one of the following is a procedural language ?
 **Answer: Relational algebra**
-Q12: Relations - 1
+## Q12: Relations - 1
 The_____ operation allows the combining of two relations by merging pairs of tuples, one from each relation, into a single tuple.
 **Answer: Join**
-Q13: Relations - 2
+## Q13: Relations - 2
 The result which operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.
 **Answer: Cartesian product
 A × B = {(x, y) : x ∈ A, y ∈ B}
 A = {7, 8} and B = {2, 4, 6}
 A × B = {(7, 2); (7, 4); (7, 6); (8, 2); (8, 4); (8, 6)}**
-Q14: Index Architecture Types
+## Q14: Index Architecture Types
 
 How many index architecture type classifications are there in MS SQL Server?
 **Answer: 2
 Clustered and non clusterd**
-Q15: Indexes - 2
+## Q15: Indexes - 2
 
 Which of the following statement is true about row locators in non-clustered indexes in MS SQL Server?
 **Answer: If the table has a clustered index, or the index is on an indexed view, the row locator is the clustered index key for the row.**
-Q16:OLAP Performance
+## Q16:OLAP Performance
 
 Which of these helps OLAP speed up queries, in terms of performance?
 **Answer: Aggregation**
-Q17: OLAP Operations - 1
+## Q17: OLAP Operations - 1
 
 This OLAP operation involves computing all of the data relationships for one or more dimensions.
 **Answer: roll-up**
-Q18: Indexes - 3
+## Q18: Indexes - 3
 Consider the following two designs to store the data using clustered indexes in MS SQL Server:
 * In the first design, the fill factor is 20% and the total number of free rows per page are A.
 * In the second design, the fill factor is 40% and the total number of free rows per page are B. 
 Which the followings describes the relation between A and B:
 **Answer: A = 1.33B**
-Q19: OLAP Operations - 2
+## Q19: OLAP Operations - 2
 
 This OLAP Operation rotates the data, and delivers an alternative to the original presentation. 
 **Answer: pivot**
-Q20: Indexes - 4
+## Q20: Indexes - 4
 
 The correct syntax for creating composite indexes in MS SQL Sever is:
 **Answer:

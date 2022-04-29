@@ -154,13 +154,13 @@ This OLAP Operation rotates the data, and delivers an alternative to the origina
 The correct syntax for creating composite indexes in MS SQL Sever is:
 **Answer:
 CREATE INDEX index_name ON table_name(column1, column2);**
-Q21: OLAP Cube Metadata
+## Q21: OLAP Cube Metadata
 
 What is the source of the cube metadata for OLAP?
-Answer: Both star and snowflake schema(s)
-Q22: OLAP Name(s)
+**Answer: Both star and snowflake schema(s)**
+## Q22: OLAP Name(s)
 
-Answer: Multidimensional Cube, HyperCube
+**Answer: Multidimensional Cube, HyperCube**
 Q23: The Total View
 
 Which of these provides a total view of the organization?
